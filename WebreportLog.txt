@@ -1,0 +1,1006 @@
+17-Apr-2024 11:12:55.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+17-Apr-2024 11:12:55.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+17-Apr-2024 11:12:55.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+17-Apr-2024 11:12:55.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Apr-2024 11:12:55.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Apr-2024 11:12:55.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2024 11:12:55.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Java\jdk-11
+17-Apr-2024 11:12:55.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11+28
+17-Apr-2024 11:12:55.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2024 11:12:55.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Apr-2024 11:12:55.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Apr-2024 11:12:55.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Apr-2024 11:12:55.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Apr-2024 11:12:55.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp
+17-Apr-2024 11:12:55.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2024 11:12:55.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 9.0\conf\logging.properties
+17-Apr-2024 11:12:55.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2024 11:12:55.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2024 11:12:55.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2024 11:12:55.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+17-Apr-2024 11:12:55.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+17-Apr-2024 11:12:55.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+17-Apr-2024 11:12:55.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+17-Apr-2024 11:12:55.468 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Java\jdk-11\bin;C:\Python312\Scripts\;C:\Python312\;C:\Java\jdk-11\bin;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\SourceGear\Common\DiffMerge\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;%MAVEN_HOME%\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Jeremy\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\minikube;C:\Program Files\nodejs\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\doctl\;C:\Program Files\Docker\Docker\resources\bin;C:\Java\jdk-11\\bin;C:\Program Files\GitHub CLI\;C:\WINDOWS\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+17-Apr-2024 11:12:55.746 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2024 11:12:55.785 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [572] milliseconds
+17-Apr-2024 11:12:55.841 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2024 11:12:55.841 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+17-Apr-2024 11:12:55.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\docs]
+17-Apr-2024 11:12:56.730 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [550] milliseconds.
+17-Apr-2024 11:12:56.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\docs] has finished in [900] ms
+17-Apr-2024 11:12:56.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\examples]
+17-Apr-2024 11:12:57.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\examples] has finished in [536] ms
+17-Apr-2024 11:12:57.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\host-manager]
+17-Apr-2024 11:12:57.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\host-manager] has finished in [37] ms
+17-Apr-2024 11:12:57.327 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\manager]
+17-Apr-2024 11:12:57.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\manager] has finished in [33] ms
+17-Apr-2024 11:12:57.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ROOT]
+17-Apr-2024 11:12:57.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ROOT] has finished in [25] ms
+17-Apr-2024 11:12:57.390 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2024 11:12:57.932 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2147] milliseconds
+17-Apr-2024 11:15:57.644 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\webreport.war]
+17-Apr-2024 11:16:03.186 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Apr-2024 11:16:09.658 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Norwich
+17-Apr-2024 11:16:09.666 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Man City
+17-Apr-2024 11:16:09.669 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Sheffield United
+17-Apr-2024 11:16:09.673 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Southampton
+17-Apr-2024 11:16:09.677 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Everton
+17-Apr-2024 11:16:09.680 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Brighton
+17-Apr-2024 11:16:09.684 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Aston Villa
+17-Apr-2024 11:16:09.686 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Wolves
+17-Apr-2024 11:16:09.689 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Arsenal
+17-Apr-2024 11:16:09.692 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Chelsea
+17-Apr-2024 11:16:09.695 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Burnley
+17-Apr-2024 11:16:09.697 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Bournemouth
+17-Apr-2024 11:16:09.700 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v West Ham
+17-Apr-2024 11:16:09.702 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Watford
+17-Apr-2024 11:16:09.704 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Newcastle
+17-Apr-2024 11:16:09.709 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Liverpool
+17-Apr-2024 11:16:09.712 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Tottenham
+17-Apr-2024 11:16:09.715 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Crystal Palace
+17-Apr-2024 11:16:09.718 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Leicester
+17-Apr-2024 11:16:09.720 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Man United
+17-Apr-2024 11:16:09.723 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Everton
+17-Apr-2024 11:16:09.727 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Chelsea
+17-Apr-2024 11:16:09.729 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Southampton
+17-Apr-2024 11:16:09.731 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Crystal Palace
+17-Apr-2024 11:16:09.734 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Leicester
+17-Apr-2024 11:16:09.738 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v West Ham
+17-Apr-2024 11:16:09.741 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Arsenal
+17-Apr-2024 11:16:09.743 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Man City
+17-Apr-2024 11:16:09.746 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Newcastle
+17-Apr-2024 11:16:09.748 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Burnley
+17-Apr-2024 11:16:09.750 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Man United
+17-Apr-2024 11:16:09.753 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Sheffield United
+17-Apr-2024 11:16:09.757 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Aston Villa
+17-Apr-2024 11:16:09.761 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Bournemouth
+17-Apr-2024 11:16:09.763 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Brighton
+17-Apr-2024 11:16:09.765 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Watford
+17-Apr-2024 11:16:09.767 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Norwich
+17-Apr-2024 11:16:09.770 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Liverpool
+17-Apr-2024 11:16:09.772 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Wolves
+17-Apr-2024 11:16:09.774 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Tottenham
+17-Apr-2024 11:16:09.777 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Newcastle
+17-Apr-2024 11:16:09.779 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Burnley
+17-Apr-2024 11:16:09.782 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Leicester
+17-Apr-2024 11:16:09.784 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Southampton
+17-Apr-2024 11:16:09.786 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Crystal Palace
+17-Apr-2024 11:16:09.789 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Chelsea
+17-Apr-2024 11:16:09.793 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Man City
+17-Apr-2024 11:16:09.796 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Everton
+17-Apr-2024 11:16:09.798 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Arsenal
+17-Apr-2024 11:16:09.801 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v West Ham
+17-Apr-2024 11:16:09.803 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Bournemouth
+17-Apr-2024 11:16:09.805 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Tottenham
+17-Apr-2024 11:16:09.808 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Norwich
+17-Apr-2024 11:16:09.811 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Sheffield United
+17-Apr-2024 11:16:09.814 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Watford
+17-Apr-2024 11:16:09.817 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Brighton
+17-Apr-2024 11:16:09.820 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Wolves
+17-Apr-2024 11:16:09.824 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Man United
+17-Apr-2024 11:16:09.827 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Aston Villa
+17-Apr-2024 11:16:09.837 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Liverpool
+17-Apr-2024 11:16:09.839 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Liverpool
+17-Apr-2024 11:16:09.842 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Burnley
+17-Apr-2024 11:16:09.844 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v West Ham
+17-Apr-2024 11:16:09.847 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Brighton
+17-Apr-2024 11:16:09.849 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Norwich
+17-Apr-2024 11:16:09.851 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Southampton
+17-Apr-2024 11:16:09.853 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Watford
+17-Apr-2024 11:16:09.855 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Man City
+17-Apr-2024 11:16:09.856 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Newcastle
+17-Apr-2024 11:16:09.858 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Arsenal
+17-Apr-2024 11:16:09.862 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Tottenham
+17-Apr-2024 11:16:09.865 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Everton
+17-Apr-2024 11:16:09.867 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Leicester
+17-Apr-2024 11:16:09.870 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Aston Villa
+17-Apr-2024 11:16:09.872 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Sheffield United
+17-Apr-2024 11:16:09.874 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Crystal Palace
+17-Apr-2024 11:16:09.877 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Bournemouth
+17-Apr-2024 11:16:09.879 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Wolves
+17-Apr-2024 11:16:09.882 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Chelsea
+17-Apr-2024 11:16:09.884 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Man United
+17-Apr-2024 11:16:09.887 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v West Ham
+17-Apr-2024 11:16:09.890 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Brighton
+17-Apr-2024 11:16:09.892 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Norwich
+17-Apr-2024 11:16:09.895 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Newcastle
+17-Apr-2024 11:16:09.897 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Burnley
+17-Apr-2024 11:16:09.899 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Watford
+17-Apr-2024 11:16:09.901 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Southampton
+17-Apr-2024 11:16:09.902 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Man City
+17-Apr-2024 11:16:09.904 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Liverpool
+17-Apr-2024 11:16:09.907 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Arsenal
+17-Apr-2024 11:16:09.909 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Leicester
+17-Apr-2024 11:16:09.911 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Aston Villa
+17-Apr-2024 11:16:09.912 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Everton
+17-Apr-2024 11:16:09.914 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Bournemouth
+17-Apr-2024 11:16:09.916 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Sheffield United
+17-Apr-2024 11:16:09.917 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Chelsea
+17-Apr-2024 11:16:09.919 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Wolves
+17-Apr-2024 11:16:09.922 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Crystal Palace
+17-Apr-2024 11:16:09.925 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Tottenham
+17-Apr-2024 11:16:09.928 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Man United
+17-Apr-2024 11:16:09.930 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Man United
+17-Apr-2024 11:16:09.932 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Wolves
+17-Apr-2024 11:16:09.934 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Liverpool
+17-Apr-2024 11:16:09.936 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Norwich
+17-Apr-2024 11:16:09.938 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Southampton
+17-Apr-2024 11:16:09.941 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Burnley
+17-Apr-2024 11:16:09.943 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Newcastle
+17-Apr-2024 11:16:09.945 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Chelsea
+17-Apr-2024 11:16:09.947 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Leicester
+17-Apr-2024 11:16:09.949 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Tottenham
+17-Apr-2024 11:16:09.951 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Watford
+17-Apr-2024 11:16:09.953 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Crystal Palace
+17-Apr-2024 11:16:09.956 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v West Ham
+17-Apr-2024 11:16:09.959 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Bournemouth
+17-Apr-2024 11:16:09.961 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Everton
+17-Apr-2024 11:16:09.963 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Sheffield United
+17-Apr-2024 11:16:09.964 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Arsenal
+17-Apr-2024 11:16:09.966 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Brighton
+17-Apr-2024 11:16:09.968 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Aston Villa
+17-Apr-2024 11:16:09.970 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Man City
+17-Apr-2024 11:16:09.973 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Tottenham
+17-Apr-2024 11:16:09.975 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Southampton
+17-Apr-2024 11:16:09.977 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Wolves
+17-Apr-2024 11:16:09.979 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Leicester
+17-Apr-2024 11:16:09.981 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Liverpool
+17-Apr-2024 11:16:09.983 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Norwich
+17-Apr-2024 11:16:09.985 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Burnley
+17-Apr-2024 11:16:09.989 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Chelsea
+17-Apr-2024 11:16:09.991 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Man United
+17-Apr-2024 11:16:09.993 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Newcastle
+17-Apr-2024 11:16:09.995 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Man City
+17-Apr-2024 11:16:09.996 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Crystal Palace
+17-Apr-2024 11:16:09.998 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v West Ham
+17-Apr-2024 11:16:10.000 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Brighton
+17-Apr-2024 11:16:10.002 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Bournemouth
+17-Apr-2024 11:16:10.003 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Watford
+17-Apr-2024 11:16:10.005 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Arsenal
+17-Apr-2024 11:16:10.007 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Sheffield United
+17-Apr-2024 11:16:10.008 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Everton
+17-Apr-2024 11:16:10.010 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Aston Villa
+17-Apr-2024 11:16:10.011 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Bournemouth
+17-Apr-2024 11:16:10.013 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Man City
+17-Apr-2024 11:16:10.014 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Aston Villa
+17-Apr-2024 11:16:10.016 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Watford
+17-Apr-2024 11:16:10.017 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Tottenham
+17-Apr-2024 11:16:10.019 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Norwich
+17-Apr-2024 11:16:10.021 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v West Ham
+17-Apr-2024 11:16:10.023 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Everton
+17-Apr-2024 11:16:10.025 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Newcastle
+17-Apr-2024 11:16:10.026 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Brighton
+17-Apr-2024 11:16:10.027 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Chelsea
+17-Apr-2024 11:16:10.029 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Liverpool
+17-Apr-2024 11:16:10.030 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Burnley
+17-Apr-2024 11:16:10.032 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Crystal Palace
+17-Apr-2024 11:16:10.033 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Man United
+17-Apr-2024 11:16:10.034 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Leicester
+17-Apr-2024 11:16:10.036 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Southampton
+17-Apr-2024 11:16:10.038 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Sheffield United
+17-Apr-2024 11:16:10.039 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Wolves
+17-Apr-2024 11:16:10.041 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Arsenal
+17-Apr-2024 11:16:10.042 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Watford
+17-Apr-2024 11:16:10.044 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Newcastle
+17-Apr-2024 11:16:10.046 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Bournemouth
+17-Apr-2024 11:16:10.047 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Norwich
+17-Apr-2024 11:16:10.049 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Aston Villa
+17-Apr-2024 11:16:10.051 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v West Ham
+17-Apr-2024 11:16:10.052 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Everton
+17-Apr-2024 11:16:10.054 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Tottenham
+17-Apr-2024 11:16:10.056 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Man City
+17-Apr-2024 11:16:10.058 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Brighton
+17-Apr-2024 11:16:10.060 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Arsenal
+17-Apr-2024 11:16:10.062 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Southampton
+17-Apr-2024 11:16:10.063 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Burnley
+17-Apr-2024 11:16:10.065 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Sheffield United
+17-Apr-2024 11:16:10.066 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Crystal Palace
+17-Apr-2024 11:16:10.068 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Wolves
+17-Apr-2024 11:16:10.069 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Leicester
+17-Apr-2024 11:16:10.071 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Man United
+17-Apr-2024 11:16:10.073 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Chelsea
+17-Apr-2024 11:16:10.074 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Brighton
+17-Apr-2024 11:16:10.076 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Norwich
+17-Apr-2024 11:16:10.078 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Arsenal
+17-Apr-2024 11:16:10.079 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Southampton
+17-Apr-2024 11:16:10.081 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v West Ham
+17-Apr-2024 11:16:10.082 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Burnley
+17-Apr-2024 11:16:10.084 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Watford
+17-Apr-2024 11:16:10.085 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Newcastle
+17-Apr-2024 11:16:10.087 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Liverpool
+17-Apr-2024 11:16:10.089 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Man City
+17-Apr-2024 11:16:10.091 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Bournemouth
+17-Apr-2024 11:16:10.093 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Everton
+17-Apr-2024 11:16:10.095 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Crystal Palace
+17-Apr-2024 11:16:10.097 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Aston Villa
+17-Apr-2024 11:16:10.098 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Tottenham
+17-Apr-2024 11:16:10.100 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Leicester
+17-Apr-2024 11:16:10.101 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Man United
+17-Apr-2024 11:16:10.103 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Chelsea
+17-Apr-2024 11:16:10.104 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Wolves
+17-Apr-2024 11:16:10.106 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Sheffield United
+17-Apr-2024 11:16:10.108 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Chelsea
+17-Apr-2024 11:16:10.114 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Aston Villa
+17-Apr-2024 11:16:10.116 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Leicester
+17-Apr-2024 11:16:10.117 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Tottenham
+17-Apr-2024 11:16:10.118 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Wolves
+17-Apr-2024 11:16:10.120 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Everton
+17-Apr-2024 11:16:10.121 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Crystal Palace
+17-Apr-2024 11:16:10.123 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Bournemouth
+17-Apr-2024 11:16:10.124 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Man United
+17-Apr-2024 11:16:10.126 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Sheffield United
+17-Apr-2024 11:16:10.128 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v West Ham
+17-Apr-2024 11:16:10.129 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Arsenal
+17-Apr-2024 11:16:10.131 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Burnley
+17-Apr-2024 11:16:10.132 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Brighton
+17-Apr-2024 11:16:10.134 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Southampton
+17-Apr-2024 11:16:10.135 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Norwich
+17-Apr-2024 11:16:10.137 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Newcastle
+17-Apr-2024 11:16:10.139 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Liverpool
+17-Apr-2024 11:16:10.140 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Watford
+17-Apr-2024 11:16:10.141 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Man City
+17-Apr-2024 11:16:10.143 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Tottenham
+17-Apr-2024 11:16:10.144 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Sheffield United
+17-Apr-2024 11:16:10.146 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Aston Villa
+17-Apr-2024 11:16:10.147 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Crystal Palace
+17-Apr-2024 11:16:10.148 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Bournemouth
+17-Apr-2024 11:16:10.150 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Wolves
+17-Apr-2024 11:16:10.152 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Everton
+17-Apr-2024 11:16:10.153 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Chelsea
+17-Apr-2024 11:16:10.155 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Leicester
+17-Apr-2024 11:16:10.157 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Man United
+17-Apr-2024 11:16:10.159 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Watford
+17-Apr-2024 11:16:10.160 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Brighton
+17-Apr-2024 11:16:10.161 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Southampton
+17-Apr-2024 11:16:10.162 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Newcastle
+17-Apr-2024 11:16:10.164 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Man City
+17-Apr-2024 11:16:10.165 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Arsenal
+17-Apr-2024 11:16:10.166 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v West Ham
+17-Apr-2024 11:16:10.168 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Norwich
+17-Apr-2024 11:16:10.169 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Burnley
+17-Apr-2024 11:16:10.171 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Liverpool
+17-Apr-2024 11:16:10.173 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Liverpool
+17-Apr-2024 11:16:10.175 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Chelsea
+17-Apr-2024 11:16:10.176 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Aston Villa
+17-Apr-2024 11:16:10.177 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Sheffield United
+17-Apr-2024 11:16:10.179 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Southampton
+17-Apr-2024 11:16:10.180 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Norwich
+17-Apr-2024 11:16:10.181 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Everton
+17-Apr-2024 11:16:10.183 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Brighton
+17-Apr-2024 11:16:10.184 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Wolves
+17-Apr-2024 11:16:10.185 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Arsenal
+17-Apr-2024 11:16:10.187 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Man City
+17-Apr-2024 11:16:10.190 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Crystal Palace
+17-Apr-2024 11:16:10.192 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Watford
+17-Apr-2024 11:16:10.194 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Bournemouth
+17-Apr-2024 11:16:10.195 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Leicester
+17-Apr-2024 11:16:10.197 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Burnley
+17-Apr-2024 11:16:10.199 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Liverpool
+17-Apr-2024 11:16:10.201 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Tottenham
+17-Apr-2024 11:16:10.204 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Newcastle
+17-Apr-2024 11:16:10.206 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Man United
+17-Apr-2024 11:16:10.208 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v West Ham
+17-Apr-2024 11:16:10.209 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Tottenham
+17-Apr-2024 11:16:10.211 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Bournemouth
+17-Apr-2024 11:16:10.213 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Newcastle
+17-Apr-2024 11:16:10.214 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Brighton
+17-Apr-2024 11:16:10.215 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Aston Villa
+17-Apr-2024 11:16:10.217 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Man City
+17-Apr-2024 11:16:10.218 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Watford
+17-Apr-2024 11:16:10.219 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Norwich
+17-Apr-2024 11:16:10.221 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Everton
+17-Apr-2024 11:16:10.222 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v West Ham
+17-Apr-2024 11:16:10.224 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Leicester
+17-Apr-2024 11:16:10.225 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Crystal Palace
+17-Apr-2024 11:16:10.227 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Chelsea
+17-Apr-2024 11:16:10.228 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Burnley
+17-Apr-2024 11:16:10.230 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Southampton
+17-Apr-2024 11:16:10.231 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Liverpool
+17-Apr-2024 11:16:10.232 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Man United
+17-Apr-2024 11:16:10.233 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Wolves
+17-Apr-2024 11:16:10.234 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Bournemouth
+17-Apr-2024 11:16:10.236 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v West Ham
+17-Apr-2024 11:16:10.238 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Watford
+17-Apr-2024 11:16:10.240 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Norwich
+17-Apr-2024 11:16:10.241 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Newcastle
+17-Apr-2024 11:16:10.242 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Brighton
+17-Apr-2024 11:16:10.244 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Tottenham
+17-Apr-2024 11:16:10.245 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Everton
+17-Apr-2024 11:16:10.246 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Man City
+17-Apr-2024 11:16:10.248 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Aston Villa
+17-Apr-2024 11:16:10.249 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Sheffield United
+17-Apr-2024 11:16:10.250 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Arsenal
+17-Apr-2024 11:16:10.251 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Southampton
+17-Apr-2024 11:16:10.253 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Man United
+17-Apr-2024 11:16:10.255 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Leicester
+17-Apr-2024 11:16:10.256 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Arsenal
+17-Apr-2024 11:16:10.258 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Wolves
+17-Apr-2024 11:16:10.259 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Crystal Palace
+17-Apr-2024 11:16:10.260 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Sheffield United
+17-Apr-2024 11:16:10.261 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Chelsea
+17-Apr-2024 11:16:10.263 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Liverpool
+17-Apr-2024 11:16:10.264 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Burnley
+17-Apr-2024 11:16:10.265 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Brighton
+17-Apr-2024 11:16:10.267 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v West Ham
+17-Apr-2024 11:16:10.268 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Sheffield United
+17-Apr-2024 11:16:10.270 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Aston Villa
+17-Apr-2024 11:16:10.272 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Everton
+17-Apr-2024 11:16:10.273 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Bournemouth
+17-Apr-2024 11:16:10.274 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Crystal Palace
+17-Apr-2024 11:16:10.276 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Watford
+17-Apr-2024 11:16:10.277 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Arsenal
+17-Apr-2024 11:16:10.279 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Man City
+17-Apr-2024 11:16:10.280 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Wolves
+17-Apr-2024 11:16:10.282 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Southampton
+17-Apr-2024 11:16:10.283 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Burnley
+17-Apr-2024 11:16:10.284 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Man United
+17-Apr-2024 11:16:10.286 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Norwich
+17-Apr-2024 11:16:10.290 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Newcastle
+17-Apr-2024 11:16:10.292 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Leicester
+17-Apr-2024 11:16:10.295 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Chelsea
+17-Apr-2024 11:16:10.298 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Tottenham
+17-Apr-2024 11:16:10.301 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Liverpool
+17-Apr-2024 11:16:10.303 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Brighton
+17-Apr-2024 11:16:10.306 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Crystal Palace
+17-Apr-2024 11:16:10.309 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Bournemouth
+17-Apr-2024 11:16:10.313 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Arsenal
+17-Apr-2024 11:16:10.316 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Watford
+17-Apr-2024 11:16:10.318 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Sheffield United
+17-Apr-2024 11:16:10.321 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v West Ham
+17-Apr-2024 11:16:10.323 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Aston Villa
+17-Apr-2024 11:16:10.325 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Man City
+17-Apr-2024 11:16:10.327 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Everton
+17-Apr-2024 11:16:10.329 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Chelsea
+17-Apr-2024 11:16:10.330 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Norwich
+17-Apr-2024 11:16:10.333 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Leicester
+17-Apr-2024 11:16:10.335 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Newcastle
+17-Apr-2024 11:16:10.338 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Wolves
+17-Apr-2024 11:16:10.340 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Burnley
+17-Apr-2024 11:16:10.341 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Liverpool
+17-Apr-2024 11:16:10.343 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Tottenham
+17-Apr-2024 11:16:10.344 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Southampton
+17-Apr-2024 11:16:10.346 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Man United
+17-Apr-2024 11:16:10.349 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v West Ham
+17-Apr-2024 11:16:10.352 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Newcastle
+17-Apr-2024 11:16:10.354 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Burnley
+17-Apr-2024 11:16:10.357 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Chelsea
+17-Apr-2024 11:16:10.360 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Man City
+17-Apr-2024 11:16:10.362 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Everton
+17-Apr-2024 11:16:10.364 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Crystal Palace
+17-Apr-2024 11:16:10.366 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Arsenal
+17-Apr-2024 11:16:10.367 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Leicester
+17-Apr-2024 11:16:10.369 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v Southampton
+17-Apr-2024 11:16:10.371 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Norwich
+17-Apr-2024 11:16:10.374 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Wolves
+17-Apr-2024 11:16:10.377 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Bournemouth
+17-Apr-2024 11:16:10.379 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Tottenham
+17-Apr-2024 11:16:10.381 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Liverpool
+17-Apr-2024 11:16:10.383 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Aston Villa
+17-Apr-2024 11:16:10.384 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Sheffield United
+17-Apr-2024 11:16:10.386 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Man United
+17-Apr-2024 11:16:10.388 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Brighton
+17-Apr-2024 11:16:10.391 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Watford
+17-Apr-2024 11:16:10.393 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Norwich v Burnley
+17-Apr-2024 11:16:10.395 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Bournemouth v Southampton
+17-Apr-2024 11:16:10.396 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Tottenham v Leicester
+17-Apr-2024 11:16:10.398 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Brighton v Newcastle
+17-Apr-2024 11:16:10.400 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Sheffield United v Everton
+17-Apr-2024 11:16:10.401 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Wolves v Crystal Palace
+17-Apr-2024 11:16:10.402 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Watford v Man City
+17-Apr-2024 11:16:10.404 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Aston Villa v Arsenal
+17-Apr-2024 11:16:10.408 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man United v West Ham
+17-Apr-2024 11:16:10.410 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Liverpool v Chelsea
+17-Apr-2024 11:16:10.413 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Arsenal v Watford
+17-Apr-2024 11:16:10.416 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Burnley v Brighton
+17-Apr-2024 11:16:10.417 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Chelsea v Wolves
+17-Apr-2024 11:16:10.419 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Crystal Palace v Tottenham
+17-Apr-2024 11:16:10.420 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Everton v Bournemouth
+17-Apr-2024 11:16:10.423 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Leicester v Man United
+17-Apr-2024 11:16:10.424 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Man City v Norwich
+17-Apr-2024 11:16:10.426 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Newcastle v Liverpool
+17-Apr-2024 11:16:10.428 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: Southampton v Sheffield United
+17-Apr-2024 11:16:10.431 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Adding new record: West Ham v Aston Villa
+17-Apr-2024 11:16:10.447 SEVERE [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Repo size: 380
+17-Apr-2024 11:16:10.448 SEVERE [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent   new records: 380
+17-Apr-2024 11:16:10.448 SEVERE [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent   old records: 0
+17-Apr-2024 11:16:10.561 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Norwich
+17-Apr-2024 11:16:10.563 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Man City
+17-Apr-2024 11:16:10.564 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Sheffield United
+17-Apr-2024 11:16:10.565 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Southampton
+17-Apr-2024 11:16:10.566 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Everton
+17-Apr-2024 11:16:10.567 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Brighton
+17-Apr-2024 11:16:10.568 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Aston Villa
+17-Apr-2024 11:16:10.569 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Wolves
+17-Apr-2024 11:16:10.570 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Arsenal
+17-Apr-2024 11:16:10.571 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Chelsea
+17-Apr-2024 11:16:10.572 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Burnley
+17-Apr-2024 11:16:10.573 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Bournemouth
+17-Apr-2024 11:16:10.574 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v West Ham
+17-Apr-2024 11:16:10.574 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Watford
+17-Apr-2024 11:16:10.575 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Newcastle
+17-Apr-2024 11:16:10.576 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Liverpool
+17-Apr-2024 11:16:10.577 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Tottenham
+17-Apr-2024 11:16:10.579 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Crystal Palace
+17-Apr-2024 11:16:10.580 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Leicester
+17-Apr-2024 11:16:10.581 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Man United
+17-Apr-2024 11:16:10.582 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Everton
+17-Apr-2024 11:16:10.582 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Chelsea
+17-Apr-2024 11:16:10.583 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Southampton
+17-Apr-2024 11:16:10.584 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Crystal Palace
+17-Apr-2024 11:16:10.585 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Leicester
+17-Apr-2024 11:16:10.586 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v West Ham
+17-Apr-2024 11:16:10.587 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Arsenal
+17-Apr-2024 11:16:10.588 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Man City
+17-Apr-2024 11:16:10.589 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Newcastle
+17-Apr-2024 11:16:10.590 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Burnley
+17-Apr-2024 11:16:10.590 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Man United
+17-Apr-2024 11:16:10.591 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Sheffield United
+17-Apr-2024 11:16:10.592 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Aston Villa
+17-Apr-2024 11:16:10.593 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Bournemouth
+17-Apr-2024 11:16:10.593 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Brighton
+17-Apr-2024 11:16:10.594 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Watford
+17-Apr-2024 11:16:10.595 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Norwich
+17-Apr-2024 11:16:10.596 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Liverpool
+17-Apr-2024 11:16:10.596 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Wolves
+17-Apr-2024 11:16:10.597 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Tottenham
+17-Apr-2024 11:16:10.598 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Newcastle
+17-Apr-2024 11:16:10.598 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Burnley
+17-Apr-2024 11:16:10.599 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Leicester
+17-Apr-2024 11:16:10.600 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Southampton
+17-Apr-2024 11:16:10.600 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Crystal Palace
+17-Apr-2024 11:16:10.602 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Chelsea
+17-Apr-2024 11:16:10.603 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Man City
+17-Apr-2024 11:16:10.604 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Everton
+17-Apr-2024 11:16:10.605 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Arsenal
+17-Apr-2024 11:16:10.606 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v West Ham
+17-Apr-2024 11:16:10.607 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Bournemouth
+17-Apr-2024 11:16:10.608 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Tottenham
+17-Apr-2024 11:16:10.609 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Norwich
+17-Apr-2024 11:16:10.610 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Sheffield United
+17-Apr-2024 11:16:10.611 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Watford
+17-Apr-2024 11:16:10.612 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Brighton
+17-Apr-2024 11:16:10.613 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Wolves
+17-Apr-2024 11:16:10.614 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Man United
+17-Apr-2024 11:16:10.615 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Aston Villa
+17-Apr-2024 11:16:10.616 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Liverpool
+17-Apr-2024 11:16:10.616 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Liverpool
+17-Apr-2024 11:16:10.618 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Burnley
+17-Apr-2024 11:16:10.619 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v West Ham
+17-Apr-2024 11:16:10.620 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Brighton
+17-Apr-2024 11:16:10.621 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Norwich
+17-Apr-2024 11:16:10.622 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Southampton
+17-Apr-2024 11:16:10.623 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Watford
+17-Apr-2024 11:16:10.624 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Man City
+17-Apr-2024 11:16:10.625 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Newcastle
+17-Apr-2024 11:16:10.625 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Arsenal
+17-Apr-2024 11:16:10.627 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Tottenham
+17-Apr-2024 11:16:10.628 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Everton
+17-Apr-2024 11:16:10.628 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Leicester
+17-Apr-2024 11:16:10.629 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Aston Villa
+17-Apr-2024 11:16:10.630 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Sheffield United
+17-Apr-2024 11:16:10.631 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Crystal Palace
+17-Apr-2024 11:16:10.631 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Bournemouth
+17-Apr-2024 11:16:10.632 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Wolves
+17-Apr-2024 11:16:10.633 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Chelsea
+17-Apr-2024 11:16:10.634 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Man United
+17-Apr-2024 11:16:10.634 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v West Ham
+17-Apr-2024 11:16:10.635 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Brighton
+17-Apr-2024 11:16:10.636 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Norwich
+17-Apr-2024 11:16:10.636 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Newcastle
+17-Apr-2024 11:16:10.637 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Burnley
+17-Apr-2024 11:16:10.639 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Watford
+17-Apr-2024 11:16:10.640 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Southampton
+17-Apr-2024 11:16:10.640 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Man City
+17-Apr-2024 11:16:10.641 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Liverpool
+17-Apr-2024 11:16:10.642 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Arsenal
+17-Apr-2024 11:16:10.643 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Leicester
+17-Apr-2024 11:16:10.643 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Aston Villa
+17-Apr-2024 11:16:10.644 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Everton
+17-Apr-2024 11:16:10.644 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Bournemouth
+17-Apr-2024 11:16:10.645 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Sheffield United
+17-Apr-2024 11:16:10.645 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Chelsea
+17-Apr-2024 11:16:10.646 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Wolves
+17-Apr-2024 11:16:10.647 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Crystal Palace
+17-Apr-2024 11:16:10.647 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Tottenham
+17-Apr-2024 11:16:10.649 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Man United
+17-Apr-2024 11:16:10.650 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Man United
+17-Apr-2024 11:16:10.651 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Wolves
+17-Apr-2024 11:16:10.651 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Liverpool
+17-Apr-2024 11:16:10.652 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Norwich
+17-Apr-2024 11:16:10.653 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Southampton
+17-Apr-2024 11:16:10.654 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Burnley
+17-Apr-2024 11:16:10.656 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Newcastle
+17-Apr-2024 11:16:10.656 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Chelsea
+17-Apr-2024 11:16:10.657 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Leicester
+17-Apr-2024 11:16:10.658 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Tottenham
+17-Apr-2024 11:16:10.658 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Watford
+17-Apr-2024 11:16:10.659 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Crystal Palace
+17-Apr-2024 11:16:10.660 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v West Ham
+17-Apr-2024 11:16:10.660 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Bournemouth
+17-Apr-2024 11:16:10.661 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Everton
+17-Apr-2024 11:16:10.662 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Sheffield United
+17-Apr-2024 11:16:10.666 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Arsenal
+17-Apr-2024 11:16:10.667 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Brighton
+17-Apr-2024 11:16:10.668 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Aston Villa
+17-Apr-2024 11:16:10.669 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Man City
+17-Apr-2024 11:16:10.669 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Tottenham
+17-Apr-2024 11:16:10.670 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Southampton
+17-Apr-2024 11:16:10.671 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Wolves
+17-Apr-2024 11:16:10.671 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Leicester
+17-Apr-2024 11:16:10.672 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Liverpool
+17-Apr-2024 11:16:10.673 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Norwich
+17-Apr-2024 11:16:10.674 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Burnley
+17-Apr-2024 11:16:10.675 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Chelsea
+17-Apr-2024 11:16:10.676 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Man United
+17-Apr-2024 11:16:10.676 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Newcastle
+17-Apr-2024 11:16:10.678 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Man City
+17-Apr-2024 11:16:10.679 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Crystal Palace
+17-Apr-2024 11:16:10.679 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v West Ham
+17-Apr-2024 11:16:10.681 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Brighton
+17-Apr-2024 11:16:10.682 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Bournemouth
+17-Apr-2024 11:16:10.682 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Watford
+17-Apr-2024 11:16:10.683 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Arsenal
+17-Apr-2024 11:16:10.684 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Sheffield United
+17-Apr-2024 11:16:10.684 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Everton
+17-Apr-2024 11:16:10.685 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Aston Villa
+17-Apr-2024 11:16:10.685 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Bournemouth
+17-Apr-2024 11:16:10.686 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Man City
+17-Apr-2024 11:16:10.687 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Aston Villa
+17-Apr-2024 11:16:10.687 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Watford
+17-Apr-2024 11:16:10.688 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Tottenham
+17-Apr-2024 11:16:10.689 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Norwich
+17-Apr-2024 11:16:10.689 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v West Ham
+17-Apr-2024 11:16:10.690 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Everton
+17-Apr-2024 11:16:10.690 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Newcastle
+17-Apr-2024 11:16:10.691 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Brighton
+17-Apr-2024 11:16:10.692 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Chelsea
+17-Apr-2024 11:16:10.692 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Liverpool
+17-Apr-2024 11:16:10.693 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Burnley
+17-Apr-2024 11:16:10.694 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Crystal Palace
+17-Apr-2024 11:16:10.695 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Man United
+17-Apr-2024 11:16:10.696 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Leicester
+17-Apr-2024 11:16:10.697 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Southampton
+17-Apr-2024 11:16:10.698 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Sheffield United
+17-Apr-2024 11:16:10.699 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Wolves
+17-Apr-2024 11:16:10.700 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Arsenal
+17-Apr-2024 11:16:10.700 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Watford
+17-Apr-2024 11:16:10.701 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Newcastle
+17-Apr-2024 11:16:10.701 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Bournemouth
+17-Apr-2024 11:16:10.702 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Norwich
+17-Apr-2024 11:16:10.703 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Aston Villa
+17-Apr-2024 11:16:10.703 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v West Ham
+17-Apr-2024 11:16:10.704 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Everton
+17-Apr-2024 11:16:10.705 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Tottenham
+17-Apr-2024 11:16:10.706 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Man City
+17-Apr-2024 11:16:10.707 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Brighton
+17-Apr-2024 11:16:10.708 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Arsenal
+17-Apr-2024 11:16:10.709 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Southampton
+17-Apr-2024 11:16:10.710 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Burnley
+17-Apr-2024 11:16:10.710 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Sheffield United
+17-Apr-2024 11:16:10.711 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Crystal Palace
+17-Apr-2024 11:16:10.712 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Wolves
+17-Apr-2024 11:16:10.712 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Leicester
+17-Apr-2024 11:16:10.713 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Man United
+17-Apr-2024 11:16:10.714 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Chelsea
+17-Apr-2024 11:16:10.714 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Brighton
+17-Apr-2024 11:16:10.715 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Norwich
+17-Apr-2024 11:16:10.715 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Arsenal
+17-Apr-2024 11:16:10.716 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Southampton
+17-Apr-2024 11:16:10.716 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v West Ham
+17-Apr-2024 11:16:10.717 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Burnley
+17-Apr-2024 11:16:10.717 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Watford
+17-Apr-2024 11:16:10.718 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Newcastle
+17-Apr-2024 11:16:10.719 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Liverpool
+17-Apr-2024 11:16:10.719 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Man City
+17-Apr-2024 11:16:10.720 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Bournemouth
+17-Apr-2024 11:16:10.721 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Everton
+17-Apr-2024 11:16:10.721 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Crystal Palace
+17-Apr-2024 11:16:10.723 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Aston Villa
+17-Apr-2024 11:16:10.723 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Tottenham
+17-Apr-2024 11:16:10.724 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Leicester
+17-Apr-2024 11:16:10.725 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Man United
+17-Apr-2024 11:16:10.726 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Chelsea
+17-Apr-2024 11:16:10.727 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Wolves
+17-Apr-2024 11:16:10.727 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Sheffield United
+17-Apr-2024 11:16:10.728 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Chelsea
+17-Apr-2024 11:16:10.728 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Aston Villa
+17-Apr-2024 11:16:10.729 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Leicester
+17-Apr-2024 11:16:10.729 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Tottenham
+17-Apr-2024 11:16:10.730 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Wolves
+17-Apr-2024 11:16:10.731 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Everton
+17-Apr-2024 11:16:10.731 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Crystal Palace
+17-Apr-2024 11:16:10.732 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Bournemouth
+17-Apr-2024 11:16:10.732 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Man United
+17-Apr-2024 11:16:10.733 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Sheffield United
+17-Apr-2024 11:16:10.733 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v West Ham
+17-Apr-2024 11:16:10.734 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Arsenal
+17-Apr-2024 11:16:10.734 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Burnley
+17-Apr-2024 11:16:10.735 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Brighton
+17-Apr-2024 11:16:10.736 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Southampton
+17-Apr-2024 11:16:10.736 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Norwich
+17-Apr-2024 11:16:10.737 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Newcastle
+17-Apr-2024 11:16:10.738 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Liverpool
+17-Apr-2024 11:16:10.738 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Watford
+17-Apr-2024 11:16:10.739 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Man City
+17-Apr-2024 11:16:10.740 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Tottenham
+17-Apr-2024 11:16:10.741 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Sheffield United
+17-Apr-2024 11:16:10.742 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Aston Villa
+17-Apr-2024 11:16:10.743 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Crystal Palace
+17-Apr-2024 11:16:10.744 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Bournemouth
+17-Apr-2024 11:16:10.745 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Wolves
+17-Apr-2024 11:16:10.746 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Everton
+17-Apr-2024 11:16:10.747 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Chelsea
+17-Apr-2024 11:16:10.748 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Leicester
+17-Apr-2024 11:16:10.748 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Man United
+17-Apr-2024 11:16:10.749 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Watford
+17-Apr-2024 11:16:10.750 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Brighton
+17-Apr-2024 11:16:10.751 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Southampton
+17-Apr-2024 11:16:10.751 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Newcastle
+17-Apr-2024 11:16:10.752 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Man City
+17-Apr-2024 11:16:10.752 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Arsenal
+17-Apr-2024 11:16:10.753 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v West Ham
+17-Apr-2024 11:16:10.754 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Norwich
+17-Apr-2024 11:16:10.755 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Burnley
+17-Apr-2024 11:16:10.756 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Liverpool
+17-Apr-2024 11:16:10.757 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Liverpool
+17-Apr-2024 11:16:10.758 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Chelsea
+17-Apr-2024 11:16:10.759 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Aston Villa
+17-Apr-2024 11:16:10.759 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Sheffield United
+17-Apr-2024 11:16:10.760 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Southampton
+17-Apr-2024 11:16:10.761 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Norwich
+17-Apr-2024 11:16:10.761 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Everton
+17-Apr-2024 11:16:10.762 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Brighton
+17-Apr-2024 11:16:10.763 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Wolves
+17-Apr-2024 11:16:10.763 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Arsenal
+17-Apr-2024 11:16:10.764 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Man City
+17-Apr-2024 11:16:10.765 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Crystal Palace
+17-Apr-2024 11:16:10.766 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Watford
+17-Apr-2024 11:16:10.766 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Bournemouth
+17-Apr-2024 11:16:10.767 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Leicester
+17-Apr-2024 11:16:10.768 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Burnley
+17-Apr-2024 11:16:10.769 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Liverpool
+17-Apr-2024 11:16:10.771 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Tottenham
+17-Apr-2024 11:16:10.772 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Newcastle
+17-Apr-2024 11:16:10.775 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Man United
+17-Apr-2024 11:16:10.776 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v West Ham
+17-Apr-2024 11:16:10.777 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Tottenham
+17-Apr-2024 11:16:10.777 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Bournemouth
+17-Apr-2024 11:16:10.778 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Newcastle
+17-Apr-2024 11:16:10.779 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Brighton
+17-Apr-2024 11:16:10.780 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Aston Villa
+17-Apr-2024 11:16:10.780 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Man City
+17-Apr-2024 11:16:10.781 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Watford
+17-Apr-2024 11:16:10.782 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Norwich
+17-Apr-2024 11:16:10.783 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Everton
+17-Apr-2024 11:16:10.783 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v West Ham
+17-Apr-2024 11:16:10.784 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Leicester
+17-Apr-2024 11:16:10.785 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Crystal Palace
+17-Apr-2024 11:16:10.785 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Chelsea
+17-Apr-2024 11:16:10.786 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Burnley
+17-Apr-2024 11:16:10.787 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Southampton
+17-Apr-2024 11:16:10.788 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Liverpool
+17-Apr-2024 11:16:10.788 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Man United
+17-Apr-2024 11:16:10.790 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Wolves
+17-Apr-2024 11:16:10.791 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Bournemouth
+17-Apr-2024 11:16:10.792 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v West Ham
+17-Apr-2024 11:16:10.793 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Watford
+17-Apr-2024 11:16:10.794 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Norwich
+17-Apr-2024 11:16:10.794 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Newcastle
+17-Apr-2024 11:16:10.795 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Brighton
+17-Apr-2024 11:16:10.796 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Tottenham
+17-Apr-2024 11:16:10.796 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Everton
+17-Apr-2024 11:16:10.797 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Man City
+17-Apr-2024 11:16:10.797 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Aston Villa
+17-Apr-2024 11:16:10.798 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Sheffield United
+17-Apr-2024 11:16:10.798 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Arsenal
+17-Apr-2024 11:16:10.799 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Southampton
+17-Apr-2024 11:16:10.799 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Man United
+17-Apr-2024 11:16:10.800 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Leicester
+17-Apr-2024 11:16:10.801 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Arsenal
+17-Apr-2024 11:16:10.801 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Wolves
+17-Apr-2024 11:16:10.802 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Crystal Palace
+17-Apr-2024 11:16:10.802 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Sheffield United
+17-Apr-2024 11:16:10.803 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Chelsea
+17-Apr-2024 11:16:10.804 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Liverpool
+17-Apr-2024 11:16:10.805 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Burnley
+17-Apr-2024 11:16:10.807 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Brighton
+17-Apr-2024 11:16:10.808 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v West Ham
+17-Apr-2024 11:16:10.809 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Sheffield United
+17-Apr-2024 11:16:10.809 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Aston Villa
+17-Apr-2024 11:16:10.810 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Everton
+17-Apr-2024 11:16:10.810 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Bournemouth
+17-Apr-2024 11:16:10.811 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Crystal Palace
+17-Apr-2024 11:16:10.811 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Watford
+17-Apr-2024 11:16:10.812 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Arsenal
+17-Apr-2024 11:16:10.813 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Man City
+17-Apr-2024 11:16:10.813 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Wolves
+17-Apr-2024 11:16:10.814 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Southampton
+17-Apr-2024 11:16:10.814 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Burnley
+17-Apr-2024 11:16:10.815 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Man United
+17-Apr-2024 11:16:10.815 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Norwich
+17-Apr-2024 11:16:10.816 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Newcastle
+17-Apr-2024 11:16:10.816 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Leicester
+17-Apr-2024 11:16:10.817 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Chelsea
+17-Apr-2024 11:16:10.817 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Tottenham
+17-Apr-2024 11:16:10.818 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Liverpool
+17-Apr-2024 11:16:10.819 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Brighton
+17-Apr-2024 11:16:10.819 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Crystal Palace
+17-Apr-2024 11:16:10.821 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Bournemouth
+17-Apr-2024 11:16:10.822 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Arsenal
+17-Apr-2024 11:16:10.824 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Watford
+17-Apr-2024 11:16:10.825 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Sheffield United
+17-Apr-2024 11:16:10.825 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v West Ham
+17-Apr-2024 11:16:10.826 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Aston Villa
+17-Apr-2024 11:16:10.827 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Man City
+17-Apr-2024 11:16:10.827 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Everton
+17-Apr-2024 11:16:10.828 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Chelsea
+17-Apr-2024 11:16:10.828 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Norwich
+17-Apr-2024 11:16:10.829 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Leicester
+17-Apr-2024 11:16:10.830 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Newcastle
+17-Apr-2024 11:16:10.830 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Wolves
+17-Apr-2024 11:16:10.831 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Burnley
+17-Apr-2024 11:16:10.831 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Liverpool
+17-Apr-2024 11:16:10.832 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Tottenham
+17-Apr-2024 11:16:10.832 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Southampton
+17-Apr-2024 11:16:10.833 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Man United
+17-Apr-2024 11:16:10.833 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v West Ham
+17-Apr-2024 11:16:10.834 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Newcastle
+17-Apr-2024 11:16:10.834 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Burnley
+17-Apr-2024 11:16:10.835 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Chelsea
+17-Apr-2024 11:16:10.835 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Man City
+17-Apr-2024 11:16:10.836 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Everton
+17-Apr-2024 11:16:10.837 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Crystal Palace
+17-Apr-2024 11:16:10.838 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Arsenal
+17-Apr-2024 11:16:10.839 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Leicester
+17-Apr-2024 11:16:10.840 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v Southampton
+17-Apr-2024 11:16:10.841 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Norwich
+17-Apr-2024 11:16:10.842 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Wolves
+17-Apr-2024 11:16:10.843 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Bournemouth
+17-Apr-2024 11:16:10.843 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Tottenham
+17-Apr-2024 11:16:10.844 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Liverpool
+17-Apr-2024 11:16:10.844 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Aston Villa
+17-Apr-2024 11:16:10.845 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Sheffield United
+17-Apr-2024 11:16:10.845 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Man United
+17-Apr-2024 11:16:10.846 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Brighton
+17-Apr-2024 11:16:10.846 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Watford
+17-Apr-2024 11:16:10.847 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Norwich v Burnley
+17-Apr-2024 11:16:10.847 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Bournemouth v Southampton
+17-Apr-2024 11:16:10.848 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Tottenham v Leicester
+17-Apr-2024 11:16:10.849 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Brighton v Newcastle
+17-Apr-2024 11:16:10.849 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Sheffield United v Everton
+17-Apr-2024 11:16:10.850 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Wolves v Crystal Palace
+17-Apr-2024 11:16:10.851 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Watford v Man City
+17-Apr-2024 11:16:10.851 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Aston Villa v Arsenal
+17-Apr-2024 11:16:10.852 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man United v West Ham
+17-Apr-2024 11:16:10.853 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Liverpool v Chelsea
+17-Apr-2024 11:16:10.854 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Arsenal v Watford
+17-Apr-2024 11:16:10.856 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Burnley v Brighton
+17-Apr-2024 11:16:10.857 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Chelsea v Wolves
+17-Apr-2024 11:16:10.858 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Crystal Palace v Tottenham
+17-Apr-2024 11:16:10.860 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Everton v Bournemouth
+17-Apr-2024 11:16:10.861 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Leicester v Man United
+17-Apr-2024 11:16:10.861 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Man City v Norwich
+17-Apr-2024 11:16:10.862 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Newcastle v Liverpool
+17-Apr-2024 11:16:10.863 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: Southampton v Sheffield United
+17-Apr-2024 11:16:10.863 INFO [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Skipping previous record: West Ham v Aston Villa
+17-Apr-2024 11:16:10.864 SEVERE [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent Repo size: 380
+17-Apr-2024 11:16:10.864 SEVERE [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent   new records: 0
+17-Apr-2024 11:16:10.865 SEVERE [Catalina-utility-2] liveproject.webreport.config.MatchLoader.onApplicationEvent   old records: 380
+17-Apr-2024 11:16:10.875 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\webreport.war] has finished in [13,231] ms
+17-Apr-2024 11:16:35.144 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD played home: 19
+17-Apr-2024 11:16:35.150 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD played away: 19
+17-Apr-2024 11:16:35.195 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason Match count = 380
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-08-10 02:00:00.0 / Home to Brighton / 0 - 3
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 1
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 0
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -3
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-08-17 02:00:00.0 / Away to Everton / 1 - 0
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 2
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 0
+17-Apr-2024 11:16:35.230 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -4
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-08-24 02:00:00.0 / Home to West Ham / 1 - 3
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 3
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 0
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -6
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-08-31 02:00:00.0 / Away to Newcastle / 1 - 1
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 4
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 1
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -6
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-09-15 02:00:00.0 / Home to Arsenal / 2 - 2
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 5
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 2
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -6
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-09-21 02:00:00.0 / Away to Man City / 8 - 0
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.231 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 6
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 2
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -14
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-09-28 02:00:00.0 / Away to Wolves / 2 - 0
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 7
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 2
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -16
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-10-05 02:00:00.0 / Home to Sheffield United / 0 - 0
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 8
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 3
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -16
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-10-19 02:00:00.0 / Away to Tottenham / 1 - 1
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 9
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 4
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -16
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-10-26 02:00:00.0 / Home to Bournemouth / 0 - 0
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 10
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 5
+17-Apr-2024 11:16:35.232 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -16
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-11-02 01:00:00.0 / Home to Chelsea / 1 - 2
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 11
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 5
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -17
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-11-08 01:00:00.0 / Away to Norwich / 0 - 2
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 12
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 8
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -15
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-11-23 01:00:00.0 / Home to Burnley / 0 - 3
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 13
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 8
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -18
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-11-30 01:00:00.0 / Away to Southampton / 2 - 1
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 14
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 8
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -19
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-12-04 01:00:00.0 / Away to Leicester / 2 - 0
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 15
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 8
+17-Apr-2024 11:16:35.233 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -21
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-12-07 01:00:00.0 / Home to Crystal Palace / 0 - 0
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 16
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 9
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -21
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-12-14 01:00:00.0 / Away to Liverpool / 2 - 0
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 17
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 9
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -23
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-12-22 01:00:00.0 / Home to Man United / 2 - 0
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 18
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 12
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -21
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-12-26 01:00:00.0 / Away to Sheffield United / 1 - 1
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 19
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 13
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -21
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2019-12-28 01:00:00.0 / Home to Aston Villa / 3 - 0
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 20
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 16
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -18
+17-Apr-2024 11:16:35.234 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-01-01 01:00:00.0 / Home to Wolves / 2 - 1
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 21
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 19
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -17
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-01-12 01:00:00.0 / Away to Bournemouth / 0 - 3
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 22
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 22
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -14
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-01-18 01:00:00.0 / Home to Tottenham / 0 - 0
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 23
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 23
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -14
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-01-21 01:00:00.0 / Away to Aston Villa / 2 - 1
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 24
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 23
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -15
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-02-01 01:00:00.0 / Home to Everton / 2 - 3
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 25
+17-Apr-2024 11:16:35.235 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 23
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -16
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-02-08 01:00:00.0 / Away to Brighton / 1 - 1
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 26
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 24
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -16
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-02-23 01:00:00.0 / Away to Man United / 3 - 0
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 27
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 24
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -19
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-02-29 01:00:00.0 / Home to Liverpool / 3 - 0
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 28
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 27
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -16
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-03-07 01:00:00.0 / Away to Crystal Palace / 1 - 0
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 29
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 27
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -17
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-06-20 02:00:00.0 / Home to Leicester / 1 - 1
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 30
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 28
+17-Apr-2024 11:16:35.236 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -17
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-06-25 02:00:00.0 / Away to Burnley / 1 - 0
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 31
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 28
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -18
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-06-28 02:00:00.0 / Home to Southampton / 1 - 3
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 32
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 28
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -20
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-07-04 02:00:00.0 / Away to Chelsea / 3 - 0
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 33
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 28
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -23
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-07-07 02:00:00.0 / Home to Norwich / 2 - 1
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 34
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 31
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -22
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-07-11 02:00:00.0 / Home to Newcastle / 2 - 1
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 35
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 34
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -21
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-07-17 02:00:00.0 / Away to West Ham / 3 - 1
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 36
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 34
+17-Apr-2024 11:16:35.237 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -23
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-07-21 02:00:00.0 / Home to Man City / 0 - 4
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 37
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 34
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -27
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD RESULT: 2020-07-26 02:00:00.0 / Away to Arsenal / 3 - 2
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD update
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD played now: 38
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD points now: 34
+17-Apr-2024 11:16:35.238 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.addResults WATFORD goal-diff now: -28
+17-Apr-2024 11:16:35.242 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD played home: 19
+17-Apr-2024 11:16:35.244 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason WATFORD played away: 19
+17-Apr-2024 11:16:35.275 INFO [http-nio-8080-exec-4] liveproject.webreport.match.MatchService.aggregateSeason EPL played : 380
