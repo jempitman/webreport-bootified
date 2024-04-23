@@ -8,21 +8,15 @@ import lombok.extern.java.Log;
 import manning.borg.industries.domain.Match;
 import manning.borg.industries.repository.MatchRepository;
 import manning.borg.industries.domain.MatchResultDeserializer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationListener;
-import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.io.IOException;
-import java.util.EventListener;
 import java.util.List;
 
 @Log
@@ -36,8 +30,8 @@ public class MatchLoader implements CommandLineRunner {
     @Value("${testdata.season}")
     private String loadFileSeason;
 
-    private MatchRepository repository;
-    private ApplicationContext appContext;
+    private final MatchRepository repository;
+    private final ApplicationContext appContext;
 
     @Autowired
     public MatchLoader(MatchRepository repository, ApplicationContext ctx) {
