@@ -39,10 +39,10 @@ public class Match implements Serializable {
     private String awayTeam;
     private Integer fullTimeHomeGoals;
     private Integer fullTimeAwayGoals;
-    private Integer fullTimeResult;
+    private Result fullTimeResult;
     private Integer halfTimeHomeGoals;
     private Integer halfTimeAwayGoals;
-    private Integer halfTimeResult;
+    private Result halfTimeResult;
     private String referee;
     private Integer homeTeamShots;
     private Integer awayTeamShots;

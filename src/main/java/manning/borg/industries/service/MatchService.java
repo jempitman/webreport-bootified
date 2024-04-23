@@ -102,5 +102,8 @@ public class MatchService {
         stats.setGoallessDraws(stats.getGoallessDraws()+ newStats[3]);
     }
 
+    public List<String> getSeason(){
+        return matchRepository.findSeason();
+    }
 
 }

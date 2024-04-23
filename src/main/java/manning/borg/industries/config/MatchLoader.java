@@ -82,9 +82,9 @@ public class MatchLoader implements CommandLineRunner {
         } catch (IOException ioe) {
             throw new RuntimeException("Error initializing database: ", ioe);
         }
-        log.severe("Repo size: "+repository.count());
-        log.severe("  new records: "+newCount);
-        log.severe("  old records: "+alreadyCount);
+        log.info("Repo size: "+repository.count());
+        log.info("  new records: "+newCount);
+        log.info("  old records: "+alreadyCount);
 
     }
 
