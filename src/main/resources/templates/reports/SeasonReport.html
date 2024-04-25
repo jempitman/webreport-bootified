@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<form action="#" th:object="${matchDTO}" th:action="@{season-report}" method="get">
+<form action="#" th:object="${matchDTO}" th:action="@{/reports/season-report}" method="get">
     <select th:field="*{seasonSelected}">
         <option th:each="s : ${seasons}" th:value="${s}" th:text="${s}">Seasons</option>
     </select>
